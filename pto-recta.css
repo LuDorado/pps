@@ -1,0 +1,31 @@
+#jxgbox {
+    display: inline-block;
+}
+#calculos {
+    display: inline-block;
+    padding-left: 50px;
+    alignment: top;
+}
+
+#button {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    width: 150px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin-left: 150px;
+}
+#button:hover {
+    background-color: #4CAF50; /* Blue */
+    border: none;
+    color: white;
+}
+#dpr {
+    display: inline-block;
+    margin-left: 100px;
+    alignment: right;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+        <link rel="stylesheet" type="text/css" href="pto-recta.css" />
+
+        <script type="text/javascript" src="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+        <title>Distancia entre un punto y una recta</title>
+    </head>
+    <body>
+        <div id="jxgbox" class="jxgbox" style="width:500px; height:500px;"></div>
+        <script type="text/javascript">
+            var board = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-10, 10, 10, -10], axis:true, showCopyright:false});
+            let p = board.create('point',[-3,-5], {name:'P',size:4, color:'violet',needsRegularUpdate:true});
+
+            <!--var b = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-x, y, x, -y]});-->
+            var p1 = board.create('point',[-6,7], {name:'A',size:4,color:'green',needsRegularUpdate:true});
+            var p2 = board.create('point',[7,-5], {name:'B',size:4,color:'green',needsRegularUpdate:true});
+            var li2 = board.create('line',[p1,p2], {straightFirst:false, straightLast:false, strokeWidth:2});
+
+
+            // Now make this point visible and fixed:
+            function getXValue(pos) {
+                if (pos < 0)
+                {
+                    pos = 250 - (pos*25);
+                }
+                else {
+                    pos = 250 + (pos*25);
+                }
+                return pos
+            }
+            function getYValue(pos) {
+                if (pos < 0)
+                {
+                    pos = 250 + (pos*25);
+                }
+                else {
+                    pos = 250 - (pos*25);
+                }
+                return pos
+            }
+            function setPos() {
+                var Px = parseFloat(document.datos[0].value);
+                var Py = parseFloat(document.datos[1].value);
+                //document.getElementById("demo").innerHTML = x;
+                Px = getXValue(Px);
+                Py = getYValue(Py);
+                p.setPosition(JXG.Point.COORDS_BY_USER,[Px,Py]);
+                p.fullUpdate();
+            }
+            function setRect() {
+                var Px = parseFloat(document.datos[0].value);
+                var Py = parseFloat(document.datos[1].value);
+                var valA = parseFloat(document.datos[2].value);
+                var valB = parseFloat(document.datos[3].value);
+                var valC = parseFloat(document.datos[4].value);
+
+                if (valA == 0) {
+                    if (Px > 0) {
+                        px1 = getXValue(Px-9);
+                        py1 = getYValue(valC/valB);
+                        p1.setPosition(JXG.Point.COORDS_BY_USER,[px1,py1]);
+                        p1.fullUpdate();
+                        px2 = getXValue(Px + 4);
+                        py2 = getYValue(valC/valB);
+                        p2.setPosition(JXG.Point.COORDS_BY_USER,[px2,py2]);
+                        p2.fullUpdate();
+                        li2 = board.create('line',[p1,p2], {straightFirst:false, straightLast:false, strokeWidth:2});
+                    }
+                    else {
+                        px1 = getXValue(Px-4);
+                        py1 = getYValue(-valC/valB);
+                        p1.setPosition(JXG.Point.COORDS_BY_USER,[px1,py1]);
+                        p1.fullUpdate();
+                        px2 = getXValue(Px + 7);
+                        py2 = getYValue(-valC/valB);
+                        p2.setPosition(JXG.Point.COORDS_BY_USER,[px2,py2]);
+                        p2.fullUpdate();
+                        li2 = board.create('line',[p1,p2], {straightFirst:false, straightLast:false, strokeWidth:2});
+                    }
+
+                }
+                else if (valB == 0) {
+                    if (Py > 0) {
+
+                    }
+                }
+            }
+            function m(x,y)
+            { return Math.sqrt(x*x+y*y)  }
+            function s(x,y,c)
+            { return Math.abs(x+y+c)   }
+            function calcular()
+            {
+                var px=parseFloat(document.datos[0].value);
+                var py=parseFloat(document.datos[1].value);
+
+                var ax=parseFloat(document.datos[2].value);
+                var by=parseFloat(document.datos[3].value);
+                var c=parseFloat(document.datos[4].value);
+
+                var mx= ax*px ; var my=by*py ;
+
+                document.datos.dpr.value= s(mx,my,c)/m(ax,by);
+            }
+        </script>
+        <div id="calculos">
+            <form name="datos" align="in-block">
+                <h3>Coordenadas del punto</h3>
+                X=        <input type="text" size="3" id="ptox"><BR>
+                Y=        <input type="text" size="3" id="ptoy" onchange="setPos()"><BR>
+
+               <h3>Recta (a*x + b*y + c)</h3>
+                a = <input type="text" size="3"><BR>
+                b = <input type="text" size="3"><BR>
+                c = <input type="text" size="3" onchange="setRect()"><BR>
+
+                <input type="button" value="Calcular" id="button" onClick="calcular()"><BR><BR>
+                <div id="rtdos">
+                    <h3>Distancia pto a recta (P a r) =</h3><label for="dpr"></label><input type="text" size="3" id="dpr"><BR>
+                </div>
+            </form>
+        </div>
+
+
+
+
+    </body>
+</html>

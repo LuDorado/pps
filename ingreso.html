@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Distancias</title>
+    <script >
+        function m(x,y)
+        { return Math.sqrt(x*x+y*y)  }
+        function s(x,y,c)
+        { return Math.abs(x+y+c)   }
+        function calcular()
+        {
+            var px=parseFloat(document.datos[0].value);
+            var py=parseFloat(document.datos[1].value);
+
+            var ax=parseFloat(document.datos[2].value);
+            var by=parseFloat(document.datos[3].value);
+            var c=parseFloat(document.datos[4].value);
+
+            var mx= ax*px ; var my=by*py ;
+
+            document.datos.dpr.value= s(mx,my,c)/m(ax,by);
+        }
+
+    </script>
+
+</head>
+
+
+
+<body text=white bgcolor=blue>
+
+CALCULO DE DISTANCIAS <BR>
+
+<form name="datos">
+
+    Punto P <BR>
+    Px= <input type="text" size="3"><BR>
+    Py= <input type="text" size="3"><BR>
+
+    Recta (a*x + b*y + c)<BR>
+
+    a = <input type="text" size="3"><BR>
+    b = <input type="text" size="3"><BR>
+    c = <input type="text" size="3"><BR>
+
+
+
+    <input type="button" value="Calcular" onClick="calcular()"><BR><BR>
+
+    Distancia pto a recta (P a r)........=<input type="text" size="3"name="dpr"><BR>
+
+
+</form>
+
+</body>
+
+</html>

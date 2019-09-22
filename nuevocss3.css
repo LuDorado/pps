@@ -1,0 +1,108 @@
+body{
+	background-color:gainsboro;
+}
+#logo1{
+width: 300px;
+height:150px;
+
+-moz-transform: translateY(-40px);
+-webkit-transform: translateY(-40px);
+}
+#logo2{
+width: 300px;
+height: 150px;
+
+-moz-transform: translateY(-40px);
+-webkit-transform: translateY(-40px);
+}
+
+#principal {
+display: block;
+width: 600px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+
+-moz-transform: scale(2);
+-webkit-transform: scale(2);
+
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+
+background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+background: -moz-radial-gradient(center,ellipse, #FFFFFF 30%, #0054FF 90%);
+}
+#titulo {
+font: bold 30px MiNuevaFuente, verdana, sans-serif;
+text-shadow: rgba(255,255,255,255) 3px 3px 5px;
+/*color: hsla(255, 20%, 75%, 1);*/
+}
+@font-face {
+font-family: 'MiNuevaFuente';
+src: url('CALIBRII.TTF');
+}
+
+#temas{
+display: block;
+width: 200px;
+margin: 50px;
+padding: 10px;
+text-align: center;
+font: bold 38px MiNuevaFuente, verdana, sans-serif;
+text-shadow: rgba(255,255,255,255) 3px 3px 5px;
+/*color: hsla(255, 20%, 75%, 1);*/
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #999999;
+	background: #DDDDDD; /*#333333;*/
+}
+
+li {
+display: block;
+width: 230px;
+	height:50px;
+margin: 10px;
+padding: 3px;
+
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+
+font: bold 18px MiNuevaFuente, verdana, sans-serif;
+text-shadow: rgba(1,1,1,0.2) 2px 2px 4px;
+/*color: hsla(235, 100%, 45%, 1);*/
+
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow: rgb(150,150,150) 5px 5px 10px;
+
+background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+background: -moz-radial-gradient(center,ellipse, #FFFFFF 20%, #0054FF 90%);
+}
+li {
+	float: left;
+}
+iframe{
+	margin: 20px;
+	height:650px;
+	width:1500px;
+}
+
+#fondo{
+width: 400px;
+height:550px;
+
+-moz-transform: translate(500px,40px);
+-webkit-transform: translate(500px,40px);
+}

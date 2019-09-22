@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19f84cd1-c9f4-4196-b3ed-83688c8febc9" name="Default Changelist" comment="">
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.idea/pps.Bustamante-Dorado.iml" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/CALIBRII.TTF" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/curvas.css" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/curvas1.css" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/curvas3.css" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/curvas3.html" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/graf_seno.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/nuwvo_seno.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas1.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas3.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas4.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas5.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas6.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas7.js" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/seno.css" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/seno.html" afterDir="false" />
+      <change afterPath="/media/lu/Data/pps.Bustamante-Dorado/seno_conf.css" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/canvas.js" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/canvas.js" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/curvas1.html" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/curvas1.html" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/curvas2.html" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/curvas2.html" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/diamonds" beforeDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/ejemplo1.html" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/ejemplo1.html" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/index.html" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/index.html" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/nuevocss3.css" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/nuevocss3.css" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/ondas.js" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas.js" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/ondas2.js" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/ondas2.js" afterDir="false" />
+      <change beforePath="/media/lu/Data/pps.Bustamante-Dorado/trazado.html" beforeDir="false" afterPath="/media/lu/Data/pps.Bustamante-Dorado/trazado.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="nuevos" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="/media/lu/Data/pps.Bustamante-Dorado" />
+  </component>
+  <component name="ProjectId" id="1QGU621vOfumjr7Trks92079wSp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19f84cd1-c9f4-4196-b3ed-83688c8febc9" name="Default Changelist" comment="" />
+      <created>1567396247750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567396247750</updated>
+      <workItem from="1567396250511" duration="2148000" />
+      <workItem from="1567465666095" duration="2534000" />
+      <workItem from="1567868881767" duration="579000" />
+      <workItem from="1567869636144" duration="3600000" />
+      <workItem from="1568057325067" duration="1610000" />
+      <workItem from="1568058964275" duration="48000" />
+      <workItem from="1568060853038" duration="173000" />
+      <workItem from="1568073049483" duration="8194000" />
+      <workItem from="1568153882192" duration="723000" />
+      <workItem from="1568157619852" duration="18000" />
+      <workItem from="1568835995219" duration="1534000" />
+      <workItem from="1568927385263" duration="5000" />
+      <workItem from="1569165960472" duration="429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
